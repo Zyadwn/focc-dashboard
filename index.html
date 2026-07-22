@@ -18,17 +18,33 @@
 
 <header>
 
+<div class="header-left">
 <img src="IMG_8797.webp" class="logo">
+</div>
 
+<div class="header-center">
 <h1>FOCC</h1>
-
 <h2>Fire Operations Control Center</h2>
-
 <p>King Abdulaziz International Airport</p>
+</div>
+
+<div class="header-right">
+
+<div class="mini-card">
+<div class="mini-title">WEATHER</div>
+<div id="weather" class="mini-value">Loading...</div>
+</div>
+
+<div class="mini-card">
+<div class="mini-title">GREGORIAN</div>
+<div id="gregorianDate" class="mini-value"></div>
+</div>
+
+</div>
 
 </header>
 
-<section class="grid4">
+<section class="time-grid">
 
 <div class="card">
 <span class="title">LOCAL TIME</span>
@@ -40,23 +56,15 @@
 <div id="zuluTime" class="value">00:00</div>
 </div>
 
-<div class="card">
-<span class="title">GREGORIAN</span>
-<div id="gregorianDate" class="value-small"></div>
-</div>
-
-
 </section>
-<section class="grid4">
 
-<div class="card">
-<span class="title">WEATHER</span>
-<div id="weather" class="value-small">Loading...</div>
-</div>
+<section class="grid2">
 
 <div class="card">
 <span class="title">RUNWAY IN USE</span>
-<div id="runway" class="value-small">34L / 16R</div>
+<div id="runway" class="value-small">
+34L / 16R
+</div>
 </div>
 
 <div class="card">
@@ -65,6 +73,10 @@
 Terminal 1 • North Terminal • Hajj Terminal
 </div>
 </div>
+
+</section>
+
+<section class="grid1">
 
 <div class="card">
 <span class="title">NOTICE BOARD</span>
@@ -78,5 +90,4 @@ Welcome to FOCC
 <script src="script.js"></script>
 
 </body>
-
 </html>
