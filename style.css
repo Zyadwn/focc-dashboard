@@ -32,33 +32,35 @@ header{
 
     text-align:center;
 
-    margin-bottom:40px;
+    margin-bottom:18px;
 
 }
 
 .logo{
 
-    width:140px;
+    width:110px;
 
-    margin-bottom:15px;
+    margin-bottom:8px;
 
 }
 
 header h1{
 
-    font-size:72px;
+    font-size:60px;
 
-    letter-spacing:8px;
+    letter-spacing:6px;
 
     font-weight:800;
+
+    margin:0;
 
 }
 
 header h2{
 
-    margin-top:10px;
+    margin-top:4px;
 
-    font-size:30px;
+    font-size:24px;
 
     font-weight:600;
 
@@ -66,9 +68,9 @@ header h2{
 
 header p{
 
-    margin-top:8px;
+    margin-top:4px;
 
-    font-size:18px;
+    font-size:15px;
 
     color:#9fb5c9;
 
