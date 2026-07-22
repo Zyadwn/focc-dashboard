@@ -220,3 +220,23 @@ color:#b8d2ea;
     line-height:1.3;
 
 }
+
+.top-header{
+grid-area:header;
+}
+
+.grid1:first-of-type{
+grid-area:time;
+}
+
+.grid2{
+grid-area:info;
+}
+
+.grid1:last-of-type{
+grid-area:notice;
+}
+
+.fire-stations{
+grid-area:stations;
+}
