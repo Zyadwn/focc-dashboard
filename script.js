@@ -26,6 +26,7 @@ month: "long",
 year: "numeric"
 });
 
+}
 
 updateClock();
 setInterval(updateClock,1000);
