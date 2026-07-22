@@ -187,17 +187,19 @@ transition:.25s;
 
 .title{
 
-    display:block;
+display:block;
 
-    color:#8fb3d9;
+font-size:22px;
 
-    font-size:14px;
+font-weight:700;
 
-    letter-spacing:1px;
+letter-spacing:2px;
 
-    margin-bottom:10px;
+color:#78b8ff;
 
-    font-weight:600;
+margin-bottom:18px;
+
+text-transform:uppercase;
 
 }
 
