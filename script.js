@@ -27,14 +27,6 @@ year: "numeric"
 });
 
 
-day:'numeric',
-month:'long',
-year:'numeric'
-}
-).format(now);
-
-}
-
 updateClock();
 setInterval(updateClock,1000);
 
