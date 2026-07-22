@@ -2,20 +2,23 @@ function updateClock() {
 
 const now = new Date();
 
-document.getElementById("localTime").innerHTML =
+// Local Time
+document.getElementById("localTime").textContent =
 now.toLocaleTimeString("en-GB", {
 hour: "2-digit",
 minute: "2-digit"
 });
 
-document.getElementById("zuluTime").innerHTML =
+// Zulu Time
+document.getElementById("zuluTime").textContent =
 now.toLocaleTimeString("en-GB", {
 timeZone: "UTC",
 hour: "2-digit",
 minute: "2-digit"
 });
 
-document.getElementById("gregorianDate").innerHTML =
+// Gregorian Date
+document.getElementById("gregorianDate").textContent =
 now.toLocaleDateString("en-GB", {
 weekday: "long",
 day: "numeric",
@@ -23,7 +26,8 @@ month: "long",
 year: "numeric"
 });
 
-document.getElementById("hijriDate").innerHTML =
+// Hijri Date
+document.getElementById("hijriDate").textContent =
 new Intl.DateTimeFormat(
 'en-TN-u-ca-islamic',
 {
@@ -36,5 +40,12 @@ year:'numeric'
 }
 
 updateClock();
-
 setInterval(updateClock,1000);
+
+// Temporary Information
+document.getElementById("weather").textContent = "Jeddah 37°C";
+document.getElementById("runway").textContent = "34L / 16R";
+document.getElementById("airportInfo").textContent =
+"Terminal 1 • North Terminal • Hajj Terminal";
+document.getElementById("notice").textContent =
+"Welcome to FOCC";
