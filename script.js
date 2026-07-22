@@ -37,4 +37,4 @@ document.getElementById("runway").textContent = "34L / 16R";
 document.getElementById("airportInfo").textContent =
 "Terminal 1 • North Terminal • Hajj Terminal";
 document.getElementById("notice").textContent =
-"Welcome to FOCC";
+"Welcome to New FOCC";
