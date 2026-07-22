@@ -171,17 +171,17 @@ color:#b8d2ea;
 }
 .card{
 
-    background:#0d2d49;
+background:linear-gradient(180deg,#123f67,#0d2d49);
 
-    border:1px solid rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.08);
 
-    border-radius:16px;
+border-radius:18px;
 
-    padding:18px;
+padding:28px;
 
-    text-align:center;
+box-shadow:0 8px 25px rgba(0,0,0,.35);
 
-    box-shadow:0 8px 22px rgba(0,0,0,.22);
+transition:.25s;
 
 }
 
