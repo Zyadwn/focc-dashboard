@@ -26,11 +26,7 @@ month: "long",
 year: "numeric"
 });
 
-// Hijri Date
-document.getElementById("hijriDate").textContent =
-new Intl.DateTimeFormat(
-'en-TN-u-ca-islamic',
-{
+
 day:'numeric',
 month:'long',
 year:'numeric'
