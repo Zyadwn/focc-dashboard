@@ -32,9 +32,26 @@ updateClock();
 setInterval(updateClock,1000);
 
 // Temporary Information
+// Weather (temporary)
 document.getElementById("weather").textContent = "Jeddah 37°C";
-document.getElementById("runway").textContent = "34L / 16R";
-document.getElementById("airportInfo").textContent =
-"Terminal 1 • North Terminal • Hajj Terminal";
-document.getElementById("notice").textContent =
-"Welcome to New FOCC";
+
+// Runway
+fetch("runway.txt")
+.then(response => response.text())
+.then(text => {
+document.getElementById("runway").textContent = text;
+});
+
+// Operational Information
+fetch("operational-information.txt")
+.then(response => response.text())
+.then(text => {
+document.getElementById("airportInfo").textContent = text;
+});
+
+// Notice Board
+fetch("notice.txt")
+.then(response => response.text())
+.then(text => {
+document.getElementById("notice").textContent = text;
+});
