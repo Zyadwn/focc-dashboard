@@ -1,60 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>FOCC Dashboard</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
 <header>
 
 <div class="header-left">
-<img src="IMG_8797.webp" class="logo">
+
+    <img src="IMG_8797.webp" class="logo">
+
 </div>
 
 <div class="header-center">
-<h1>FOCC</h1>
-<h2>Fire Operations Control Center</h2>
-<p>King Abdulaziz International Airport</p>
+
+    <h1>FOCC</h1>
+    <h2>Fire Operations Control Center</h2>
+    <p>King Abdulaziz International Airport</p>
+
 </div>
 
 <div class="header-right">
 
-<div class="mini-card">
-<div class="mini-title">WEATHER</div>
-<div id="weather" class="mini-value">Loading...</div>
-</div>
+    <div class="weather-card">
 
-<div class="mini-card">
-<div class="mini-title">GREGORIAN</div>
-<div id="gregorianDate" class="mini-value"></div>
-</div>
+        <div class="weather-title">AIRPORT WEATHER</div>
+
+        <div id="weatherTemp" class="weather-temp">
+            36°C
+        </div>
+
+        <div class="weather-info">
+            💨 Wind: 18 km/h
+        </div>
+
+        <div class="weather-info">
+            💧 Humidity: 42%
+        </div>
+
+        <div class="weather-info">
+            👁 Visibility: 10 km
+        </div>
+
+        <div id="gregorianDate" class="weather-date"></div>
+
+    </div>
 
 </div>
 
 </header>
-
-<section class="time-grid">
-
-<div class="card">
-<span class="title">LOCAL TIME</span>
-<div id="localTime" class="value">00:00</div>
-</div>
-
-<div class="card">
-<span class="title">ZULU TIME</span>
-<div id="zuluTime" class="value">00:00</div>
-</div>
 
 </section>
 
