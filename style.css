@@ -85,12 +85,11 @@ header p{
 
     grid-template-columns:repeat(4,1fr);
 
-    gap:20px;
+    gap:14px;
 
-    margin-bottom:35px;
+    margin-bottom:18px;
 
 }
-
 .card{
 
     background:#0d2d49;
