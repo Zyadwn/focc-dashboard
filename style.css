@@ -97,13 +97,13 @@ header p{
 
     border:1px solid rgba(255,255,255,.08);
 
-    border-radius:18px;
+    border-radius:16px;
 
-    padding:25px;
+    padding:18px;
 
     text-align:center;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    box-shadow:0 8px 22px rgba(0,0,0,.22);
 
 }
 
@@ -113,11 +113,11 @@ header p{
 
     color:#8fb3d9;
 
-    font-size:15px;
+    font-size:14px;
 
     letter-spacing:1px;
 
-    margin-bottom:15px;
+    margin-bottom:10px;
 
     font-weight:600;
 
@@ -125,16 +125,20 @@ header p{
 
 .value{
 
-    font-size:54px;
+    font-size:50px;
 
     font-weight:800;
+
+    line-height:1.05;
 
 }
 
 .value-small{
 
-    font-size:24px;
+    font-size:20px;
 
     font-weight:700;
+
+    line-height:1.3;
 
 }
